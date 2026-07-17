@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
   background: var(--bg);
   color: var(--ink);
   line-height: 1.6;
@@ -60,7 +60,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "Fraunces", serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: clamp(3rem, 9vw, 5.6rem);
   line-height: 1.02;
@@ -111,7 +111,7 @@ main {
 }
 
 h2 {
-  font-family: "Fraunces", serif;
+  font-family: inherit;
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 24px;
@@ -187,7 +187,7 @@ h2 {
 }
 
 .day-num {
-  font-family: "Fraunces", serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--accent);
@@ -201,7 +201,7 @@ h2 {
 }
 
 .card h3 {
-  font-family: "Fraunces", serif;
+  font-family: inherit;
   font-size: 1.45rem;
   font-weight: 700;
   margin-bottom: 8px;
